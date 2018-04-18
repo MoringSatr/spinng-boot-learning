@@ -1,6 +1,7 @@
 package top.liubowen.learning01.common;
 
 import com.google.common.collect.Maps;
+import lombok.Data;
 
 import java.util.Map;
 
@@ -9,6 +10,7 @@ import java.util.Map;
  * @date 2018/4/18 10:37
  * @description
  */
+@Data
 public class ResultMessage {
 
     private int code;
@@ -43,32 +45,4 @@ public class ResultMessage {
         this.data.putAll(data);
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public Map<String, Object> getData() {
-        return data;
-    }
-
-    public void setData(Map<String, Object> data) {
-        this.data = data;
-    }
-
-    @Override
-    public String toString() {
-        return "ResultMessage{" + "code=" + code + ", message='" + message + '\'' + ", data=" + data.toString() + '}';
-    }
 }
