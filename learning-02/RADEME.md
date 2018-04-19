@@ -1,1 +1,1 @@
-快捷搭建 REST服务框架 + jdbc template
+快捷搭建 REST服务框架 + jdbcTemplate
