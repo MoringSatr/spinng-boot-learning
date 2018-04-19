@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    first:
+    default:
       jdbc-url: jdbc:mysql://localhost:3306/springboot-learning?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=true
       username: root
       password: hoolai

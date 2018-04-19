@@ -16,15 +16,15 @@ import javax.sql.DataSource;
 @Configuration
 public class DataSourceConfig {
 
-    @Bean("firstDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.first")
-    public DataSource firstDataSource() {
+    @Bean("defaultDataSource")
+    @ConfigurationProperties(prefix = "spring.datasource.default")
+    public DataSource defaultDataSource() {
         return DataSourceBuilder.create().build();
     }
 
-    @Bean("firstJdbcTemplate")
-    public JdbcTemplate firstJdbcTemplate() {
-        return new JdbcTemplate(firstDataSource());
+    @Bean("defaultJdbcTemplate")
+    public JdbcTemplate defaultJdbcTemplate() {
+        return new JdbcTemplate(defaultDataSource());
     }
 
     @Bean("secondDataSource")

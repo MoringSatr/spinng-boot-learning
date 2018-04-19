@@ -26,7 +26,7 @@ public class UserDaoImpl implements UserDao {
     private final RowMapper<UserInfo> rowMapper = new BeanPropertyRowMapper<UserInfo>(UserInfo.class);
 
     @Autowired
-    @Qualifier("firstJdbcTemplate")
+    @Qualifier("defaultJdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
     @Override
