@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
-import top.liubowen.learning02.dao.UserDao;
+import top.liubowen.learning02.dao.User2Dao;
 import top.liubowen.learning02.entity.UserInfo;
 
 import java.sql.PreparedStatement;
@@ -21,12 +21,12 @@ import java.util.List;
  * @description
  */
 @Repository
-public class UserDaoImpl implements UserDao {
+public class User2DaoImpl implements User2Dao {
 
     private final RowMapper<UserInfo> rowMapper = new BeanPropertyRowMapper<UserInfo>(UserInfo.class);
 
     @Autowired
-    @Qualifier("firstJdbcTemplate")
+    @Qualifier("secondJdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
     @Override
