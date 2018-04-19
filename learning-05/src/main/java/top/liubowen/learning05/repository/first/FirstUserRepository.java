@@ -1,7 +1,8 @@
 package top.liubowen.learning05.repository.first;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import top.liubowen.learning05.entity.first.UserInfo;
+
+import top.liubowen.learning05.entity.UserInfo;
 
 /**
  * @author liubowen

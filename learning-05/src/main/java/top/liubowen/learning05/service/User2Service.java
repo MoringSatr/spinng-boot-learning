@@ -1,7 +1,7 @@
 package top.liubowen.learning05.service;
 
 import top.liubowen.learning05.common.ResultMessage;
-import top.liubowen.learning05.entity.second.UserInfo;
+import top.liubowen.learning05.entity.UserInfo;
 
 /**
  * @author liubowen

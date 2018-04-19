@@ -16,7 +16,7 @@ spring:
   jpa:
     database: mysql
     generate-ddl: true
-    show-sql: true
+    show-sql: false
     hibernate:
       ddl-auto: update
       naming:

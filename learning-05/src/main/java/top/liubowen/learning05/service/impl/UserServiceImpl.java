@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import top.liubowen.learning05.common.ResultCode;
 import top.liubowen.learning05.common.ResultMessage;
-import top.liubowen.learning05.entity.first.UserInfo;
+import top.liubowen.learning05.entity.UserInfo;
 import top.liubowen.learning05.repository.first.FirstUserRepository;
 import top.liubowen.learning05.service.UserService;
 

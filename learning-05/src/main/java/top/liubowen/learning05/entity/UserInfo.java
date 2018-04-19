@@ -1,4 +1,4 @@
-package top.liubowen.learning05.entity.second;
+package top.liubowen.learning05.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

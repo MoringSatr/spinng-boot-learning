@@ -45,7 +45,7 @@ public class FirstJpaConfig {
     @Bean("firstEntityManagerFactory")
     public LocalContainerEntityManagerFactoryBean firstEntityManagerFactory(EntityManagerFactoryBuilder builder) {
         return builder.dataSource(dataSource).properties(jpaProperties.getHibernateProperties(new HibernateSettings()))
-                .packages("top.liubowen.learning05.entity.first") // 设置实体类所在位置
+                .packages("top.liubowen.learning05.entity") // 设置实体类所在位置
                 .persistenceUnit("firstPersistenceUnit").build();
     }
 

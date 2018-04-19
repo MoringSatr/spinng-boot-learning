@@ -1,7 +1,8 @@
 package top.liubowen.learning05.repository.second;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import top.liubowen.learning05.entity.second.UserInfo;
+
+import top.liubowen.learning05.entity.UserInfo;
 
 /**
  * @author liubowen

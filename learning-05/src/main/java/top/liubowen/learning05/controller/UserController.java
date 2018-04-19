@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import top.liubowen.learning05.common.ResultMessage;
-import top.liubowen.learning05.entity.first.UserInfo;
+import top.liubowen.learning05.entity.UserInfo;
 import top.liubowen.learning05.service.UserService;
 
 /**

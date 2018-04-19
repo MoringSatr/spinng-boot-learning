@@ -1,15 +1,14 @@
 package top.liubowen.learning05.service.impl;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import top.liubowen.learning05.common.ResultCode;
 import top.liubowen.learning05.common.ResultMessage;
-import top.liubowen.learning05.entity.second.UserInfo;
+import top.liubowen.learning05.entity.UserInfo;
 import top.liubowen.learning05.repository.second.SecondUserRepository;
 import top.liubowen.learning05.service.User2Service;
+
+import java.util.List;
 
 /**
  * @author liubowen
