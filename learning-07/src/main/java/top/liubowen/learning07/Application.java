@@ -26,7 +26,6 @@ public class Application {
         log.info("Constants.SERVER_SOCKET_URL: {}", Constants.SERVER_SOCKET_URL);
         log.info("Constants.SERVER_ID: {}", Constants.SERVER_ID);
         log.info("Constants.SERVER_NAME: {}", Constants.SERVER_NAME);
-
     }
 
 }
