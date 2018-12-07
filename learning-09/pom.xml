@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>top.liubowen</groupId>
-    <artifactId>learning-08</artifactId>
+    <artifactId>learning-09</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>learning-08</name>
+    <name>learning-09</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
